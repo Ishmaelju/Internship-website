@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block title %}Leci Internships{% endblock %}
+{% block page %}
+<nav class="blue">
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo center">Login</a>
+    <div class="nav-wrapper">
+        <ul id="nav-mobile" class="left">
+          <li><a href="/">Back</a></li>
+          <li><a href="/signup">Signup</a></li>
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+{% endblock %}
+
+
+{% block content %}
+
+
+  </nav>
+    <div class="row">
+        <p>
+            
+          </p>
+          
+    </div>
+   
+    
+      <form class="col s12" method="POST" action="/login">
+        
+        <div class="row">
+          <div class="input-field col s6">
+            <input placeholder="Username" name="username" type="text" class="validate">
+            <label for="username">Username</label>
+          </div>
+          <div class="input-field col s6">
+            <input placeholder="password" name="password" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="input-field col s6">
+            <button class="btn waves-effect waves-light right blue" type="submit" name="action">Login</button>
+          </div>
+        </div> 
+
+      </form>
+    </div>
+    <div class="row" style="background-image: url('https://sta.uwi.edu/graduation/sites/default/files/graduation/slideshow/Slideshow-2-1.jpg'); background-size: cover; background-position: center; height: 100vh;">
+{% endblock %}

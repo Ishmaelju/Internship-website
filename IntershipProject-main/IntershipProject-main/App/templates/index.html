@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+{% block title %}LECI Internship{% endblock %}
+{% block page %}
+<nav class="blue">
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo center">LECI Internship</a>
+    <ul id="nav-mobile" class="left">
+      <li><a href="/login">Login</a></li>
+      <li><a href="/signup">Signup</a></li>
+      <li><a href="/users">Apply Here</a></li>
+      <li><a href="/Home">Home</a></li>
+    </ul>
+  
+  </div>
+  
+</nav>
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <h1 class="custom-heading ">Welcome to LECI Internship</h1>
+  <p class="sub-heading ">Unlocking Your Career Potential</p>
+  <a href="#about" class="btn">Learn More</a>
+  <div class="row" style="background-image: url('https://sta.uwi.edu/graduation/sites/default/files/graduation/slideshow/Slideshow-2-1.jpg'); background-size: cover; background-position: center; height: 100vh;"></div>
+</div>
+
+ <section id="about" class="section-about">
+  <div class="container">
+    <h2 class="section-heading">About Us</h2>
+    <p class="section-description">LECI Internship is a leading internship program that offers students the opportunity to gain real-world experience and develop essential skills in their field of interest. Our mission is to empower and prepare the next generation of leaders to thrive in the competitive job market.</p>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="feature-box">
+          <i class="material-icons">school</i>
+          <h3 class="feature-heading">Education</h3>
+          <p class="feature-description">Our internship program provides a unique learning experience that combines practical work experience with professional development opportunities, including workshops, seminars, and mentorship.</p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="feature-box">
+          <i class="material-icons">work</i>
+          <h3 class="feature-heading">Develop</h1>
+          <p class="feature-description">We believe in holistic development, and our program focuses not only on gaining technical skills but also on building soft skills, such as communication, leadership, and teamwork, which are essential for career success.</p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="feature-box">
+          <i class="material-icons">people</i>
+          <h3 class="feature-heading"> Networking</h2>
+          <p class="feature-description">Networking is a key aspect of career growth, and our program provides ample opportunities to connect with professionals in various industries, expand your network, and create meaningful connections.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ {% endblock %}
